@@ -9,7 +9,7 @@ function countdown() {
     { 
     alert("You got " +counter+ " characters!");
      
-     }, 5000);
+     }, 20000);
 }
 
 
