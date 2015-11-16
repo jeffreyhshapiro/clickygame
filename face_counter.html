@@ -1,0 +1,76 @@
+<!--This is the verison I will use as my homework assignment until I can figure out how to do this without so much inline-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>How many faces can you click?</title>
+</head>
+<body>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="face_counter.css">
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12 bg-success" >
+      <div class="col-md-6">
+        <h1 class="h1_pad">Welcome to faceclicker!</h1>
+          <h1 class="h1_small_pad"><small>How many faces can you click in 20 seconds?</small></h1>
+      </div>
+        <div class="col-md-6">
+        <div id="align-button">
+          <button onclick="countdown()" class="btn btn-primary" id="start-button">Start</button>
+        </div>
+        </div>
+    </div>
+  </div>
+</div>
+<hr />
+<div class="container">
+  <div class="bg-info">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="text-center">
+          <img onclick="countup(); this.onclick=null" src="images/1.jpg">
+          <img onclick="countup(); this.onclick=null" src="images/2.png">
+          <img onclick="countup(); this.onclick=null" src="images/3.png">
+          <img onclick="countup(); this.onclick=null" src="images/4.png">
+          <img onclick="countup(); this.onclick=null" src="images/5.jpg">
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="text-center">
+          <img onclick="countup(); this.onclick=null" src="images/6.jpg">
+          <img onclick="countup(); this.onclick=null" src="images/7.png">
+          <img onclick="countup(); this.onclick=null" src="images/8.jpg">
+          <img onclick="countup(); this.onclick=null" src="images/9.png">
+          <img onclick="countup(); this.onclick=null" src="images/10.jpg">
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="text-center">
+          <img onclick="countup(); this.onclick=null" src="images/11.jpg">
+          <img onclick="countup(); this.onclick=null" src="images/12.jpg">
+          <img onclick="countup(); this.onclick=null" src="images/13.png">
+          <img onclick="countup(); this.onclick=null" src="images/14.jpg">
+          <img onclick="countup(); this.onclick=null" src="images/15.jpg">
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="text-center">
+          <img onclick="countup(); this.onclick=null" src="images/16.jpg">
+          <img onclick="countup(); this.onclick=null" src="images/17.jpg">
+          <img onclick="countup(); this.onclick=null" src="images/18.png">
+          <img onclick="countup(); this.onclick=null" src="images/19.jpg">
+          <img onclick="countup(); this.onclick=null" src="images/20.png">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script type="text/javascript" src="face_counter.js"></script>
+</body>
+</html>
