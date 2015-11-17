@@ -14,17 +14,6 @@ function timerInitiate() {
 
 function finalMessage() {
   alert("You clicked " + counter + " characters!");
-  /*if (counter === 0) {
-    alert("How did you not click anything?");
-  } else if (counter <== 5 && counter > 0) {
-    alert("Not too bad");
-  } else if (counter <== 10 && counter > 5) {
-    alert("Not too shabby");
-  } else if (counter <== 15 && counter > 10) {
-    alert("Slowly your power level is increasing");
-  } else if (counter <== 19 && counter > 15) {
-    alert("Almost there!");
-  } else if (counter === 20)*/
 };
 
 function clickCounter(e) {
